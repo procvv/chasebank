@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank App</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta name="theme-color" content="#0a3d91">
+<link rel="manifest" href="/static/manifest.json">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="toggle" onclick="toggleDark()">🌙</div>
+
+    <h2>Accounts</h2>
+
+    <div class="card">
+        <p>CHASE SECURE (...1203)</p>
+        <div class="balance">$ {{ balance }}</div>
+    </div>
+
+    <a href="/deposit">
+        <button class="button">Deposit Money</button>
+    </a>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
