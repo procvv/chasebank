@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Receipt</title>
+</head>
+<body style="text-align:center; font-family:Arial;">
+
+    <h2 style="color:green;">✔ Approved</h2>
+
+    <h1>$ {{ amount }}</h1>
+
+    <p>Deposited Amount</p>
+
+    <hr>
+
+    <p>From: Chase Checking</p>
+    <p>Card: •••• {{ last4 }}</p>
+
+    <hr>
+
+    <p>Date: {{ date }}</p>
+    <p>Transaction #: {{ tx_id }}</p>
+
+    <br>
+    <a href="/">
+        <button>Done</button>
+    </a>
+
+</body>
+</html>
